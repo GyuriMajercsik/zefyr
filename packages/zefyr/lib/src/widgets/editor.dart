@@ -669,7 +669,7 @@ abstract class EditorState extends State<RawEditor> {
   RenderEditor get renderEditor;
   EditorTextSelectionOverlay get selectionOverlay;
   bool showToolbar();
-  void hideToolbar();
+  void hideToolbar([bool hideHandles = true]);
   void requestKeyboard();
 }
 
